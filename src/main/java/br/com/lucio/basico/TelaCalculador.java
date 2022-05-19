@@ -1,4 +1,4 @@
-package br.com.lucio;
+package br.com.lucio.basico;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

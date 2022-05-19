@@ -1,4 +1,4 @@
-package br.com.lucio;
+package br.com.lucio.basico;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
