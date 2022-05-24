@@ -1,4 +1,4 @@
-package br.com.lucio.basico.buscatextual;
+package br.com.lucio.buscatextual;
 
 public class BuscaTextual {
 

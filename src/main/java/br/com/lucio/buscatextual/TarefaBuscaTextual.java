@@ -1,4 +1,4 @@
-package br.com.lucio.basico.buscatextual;
+package br.com.lucio.buscatextual;
 
 import java.io.File;
 import java.io.FileNotFoundException;
