@@ -2,12 +2,16 @@ package br.com.lucio.banheiro;
 
 public class Banheiro {
 
+	/*
+	Também poderiamos usar o lock, bloqueando e desbloqueando
+	private Lock lock = new ReentrantLock();
+	lock.lock();
+	lock..unlock();
+	 */
+
 	public void fazNumero1() {
-
 		String nome = Thread.currentThread().getName();
-
 		System.out.println(nome + " - Batendo na porta");
-		
 		synchronized (this) {
 
 			System.out.println(nome + " - Entrando no banheiro");
@@ -26,7 +30,6 @@ public class Banheiro {
 
 	public void fazNumero2() {
 		String nome = Thread.currentThread().getName();
-
 		System.out.println(nome + " - Batendo na porta");
 		synchronized (this) {
 
@@ -41,7 +44,6 @@ public class Banheiro {
 
 			System.out.println(nome + " - Lavando a mão");
 			System.out.println(nome + " - Saindo do banheiro");
-
 		}
 	}
 
