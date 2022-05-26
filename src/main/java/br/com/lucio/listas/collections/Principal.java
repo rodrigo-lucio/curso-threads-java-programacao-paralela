@@ -37,7 +37,7 @@ public class Principal {
         Thread.sleep(200);
         
         //Temos que ter um size de 1000, mas se nao usar o Vector ou o synchronizedList, o array
-        //não é totalmente preenchido e 
+        //não é totalmente preenchido e
         for (int i = 0; i < lista.size(); i++) {
             System.out.println(i + " - " + lista.get(i));
         }
