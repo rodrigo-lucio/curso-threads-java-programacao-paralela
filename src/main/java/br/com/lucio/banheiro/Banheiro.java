@@ -8,7 +8,7 @@ public class Banheiro {
      * Também poderiamos usar o lock, bloqueando e desbloqueando
      * private Lock lock = new ReentrantLock();
      * lock.lock();
-     * lock..unlock();
+     * lock.unlock();
      */
 
     public void fazNumero1() {
